@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# QuestionForger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+As students, we understand the time-consuming and draining nature of exam studying. Sometimes, a little extra motivation, like introducing a challenge, can make a big difference. We believe that having questions of just the right difficulty can make learning more efficient and fun. After all, what's easy and hard varies from person to person!
 
-## Available Scripts
+## What it Does
+QuestionForger allows users to practice for difficult university-level courses by competing against the question's internal value and other users in the system. It offers a variety of question types, adaptive difficulty levels, and a user-friendly interface, aiming to improve learning outcomes by engaging students in a dynamic and interactive assessment experience.
 
-In the project directory, you can run:
+## How We Built It
+The website was built using full-stack development. The frontend combines React, JavaScript, HTML, and CSS, while the backend utilizes an SQL server.
 
-### `npm start`
+## Challenges We Ran Into
+- Learning React was a challenge as none of us had first-hand experience with it before this project.
+- Setting up the server and resolving machine-related issues was time-consuming.
+- Fetching questions from the database was more complex than anticipated.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What We Learned
+- Full-stack development workflow.
+- Using JSX and React.
+- How to effectively connect a server with a database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What's Next for QuestionForger
+We envision QuestionForger being used in classrooms where instructors and students (with the instructor's approval) can add questions to the pool. Our next step is to add a leaderboard to foster a fun, competitive environment.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Built With
+- JavaScript
+- React.js
+- SQL
+- HTML
+- CSS
+- Git
+- GitHub
