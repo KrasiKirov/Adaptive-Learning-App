@@ -86,7 +86,6 @@ app.post('/signup', async (req, res) => {
 // Endpoint to fetch questions
 app.get('/question2', async (req, res) => {
     try {
-        // Modify the query as per your table structure and requirements
         const result = await sql.query`SELECT * FROM Calculus`;
         
         if (result.recordset.length > 0) {

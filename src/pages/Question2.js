@@ -180,7 +180,6 @@ const Question2 = () => {
             <button onClick={() => handleButtonClick('easier')}>Easier Question</button>
             <button onClick={() => handleButtonClick('similar')}>Similar Question</button>
           </div>
-          <p className="subject">Subject: {randomQuestion.subject}</p>
         </>
       ) : (
         <p>No questions available at the moment.</p>
